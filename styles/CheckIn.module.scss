@@ -1,0 +1,52 @@
+.container {
+  background: #fff;
+
+  a {
+    color: #000;
+  }
+
+  .paddingContainer {
+    padding: 2rem;
+
+    .imageContainer {
+      position: relative;
+
+      img {
+        max-height: 580px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .editContainer {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 5px;
+
+    .editButton {
+      margin-top: 10px;
+    }
+    .editButtonEnable {
+      border: none;
+      marginleft: 5px;
+    }
+  }
+
+  .saveBtn {
+    margin-top: 10px;
+  }
+
+  .editEnableBtn {
+    border: none;
+    margin-left: 5px;
+  }
+
+  .dateDisplay {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8c8c8c;
+    margin-top: 7px;
+  }
+}
